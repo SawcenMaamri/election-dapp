@@ -14,8 +14,6 @@ ____________________________________
 
 ## Dependencies
 
-Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
-
 - NPM: https://nodejs.org
 - Truffle: https://github.com/trufflesuite/truffle
 - Ganache: http://truffleframework.com/ganache/
@@ -30,7 +28,7 @@ ____________________________________
 
 ```
 $ cd election
-$ npm install
+$ npm install -g truffle
 ```
 
 <br>
@@ -40,7 +38,7 @@ ____________________________________
 
 ## Step 2. Start Ganache
 
-Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance. See free video tutorial for full explanation.
+We open the Ganache GUI client that you we downloaded and installed. This will start our local blockchain instance.
 
 <br>
 ____________________________________
@@ -50,7 +48,7 @@ ____________________________________
 ## Step 3. Compile & Deploy Election Smart Contract
 
 `$ truffle migrate --reset` <br>
-You must migrate the election smart contract each time your restart ganache.
+We must migrate the election smart contract each time we restart ganache.
 
 <br>
 ____________________________________
@@ -59,9 +57,11 @@ ____________________________________
 
 ## Step 4. Configure Metamask
 
-- Unlock Metamask
-- Connect metamask to your local Etherum blockchain provided by Ganache.
-- Import an account provided by ganache.
+- We Unlock Metamask 
+
+- We connect metamask to our local Etherum blockchain provided by Ganache. 
+
+- We import an account provided by ganache. 
 
 <br>
 ____________________________________
